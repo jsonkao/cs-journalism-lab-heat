@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<!-- <link rel="icon" href="/favicon.png" /> -->
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Overpass:wght@300;600;700&display=swap"
+			rel="stylesheet"
+		/>
+		<title>Redistricting Maps</title>
+
+		<style>
+			body {
+				margin: 0 0 75vh 0;
+			}
+
+			p,
+			h3,
+			h1,
+			h2,
+			h4,
+			h5,
+			h6,
+			input[type='checkbox' i] {
+				margin: 0;
+			}
+
+			h3 {
+				font-weight: 600;
+			}
+
+			body,
+			p,
+			select {
+				font-family: Overpass;
+			}
+
+			button {
+				font-family: inherit;
+				font-size: inherit;
+				text-align: left;
+				font-weight: inherit;
+				border: none;
+				background: none;
+				padding: 0;
+				margin: 0;
+				color: inherit;
+				outline: none;
+			}
+			button:hover {
+				cursor: pointer;
+			}
+
+			path {
+				vector-effect: non-scaling-stroke;
+			}
+		</style>
+		%svelte.head%
+	</head>
+	<body>
+		<div id="svelte">%svelte.body%</div>
+	</body>
+</html>
