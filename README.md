@@ -20,3 +20,5 @@ On the tool, you can just view temperature in a certain year. (Yellow signifies 
 ## Reproduction and development
 
 The `visuals/` directory contains the website/interactive tool. After running `npm installl`, Run `npm run dev -- --open` to open the website at `localhost:3000`.
+
+The `Makefile` contains the targets for reproducing the final data file used in the website. The original data used to fuel the Makefile is created in this [public Colab notebook](https://colab.research.google.com/drive/1MmNi16Nwqc_00bZoCoW6-HjuUKpzk).
